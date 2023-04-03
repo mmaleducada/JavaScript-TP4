@@ -4,19 +4,19 @@ class rectangulo {
         this.alto = alto;
     }
     
-    mostrarAncho(ancho) {
+    getAncho(ancho) {
         return this.ancho;
     }
     
-    newAncho(ancho) {
+    setAncho(ancho) {
         this.ancho = ancho;
     }
     
-    mostrarAlto(alto) {
+    getAlto(alto) {
         return this.alto;
     }
     
-    newAlto (alto) {
+    setAlto (alto) {
         this.alto = alto;
     }
     
@@ -41,6 +41,6 @@ class rectangulo {
 
 const rectangulo1 = new rectangulo (5,10);
 console.log (rectangulo1.mostrarDetalles());
-console.log(rectangulo1.newAncho(7));
-console.log(rectangulo1.newAlto(12));
+console.log(rectangulo1.setAncho(7));
+console.log(rectangulo1.setAlto(12));
 console.log(rectangulo1.mostrarDetalles());
